@@ -1,0 +1,24 @@
+{
+    "name": "zepaulo45/router",
+    "description": "Esse \u0000 uma classe que cria rotas",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jose Paulo",
+            "email": "zepaulo45@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "coffeecode/router": "1.0.*"
+    }
+}
